@@ -4,7 +4,7 @@
 
 const buttonClick = require("../button");
 
-beforeAll(() => {
+beforeEach(() => {
     document.body.innerHTML = "<p id='par'></p>";
 });
 
