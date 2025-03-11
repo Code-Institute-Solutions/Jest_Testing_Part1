@@ -4,7 +4,7 @@
 
 const buttonClick = require("../button");
 
-beforeAll(() => {
+beforeEach(() => {
     let fs = require("fs");
     let fileContents = fs.readFileSync("index.html", "utf-8");
     document.open();
